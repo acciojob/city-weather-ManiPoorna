@@ -22,7 +22,7 @@ const App = () => {
   return (
     <div>
       <form onSubmit={(e) => searhWeather(e)} >
-        <input className="search" type="search" onChange={(e) => setSearch(e.target.value)} />
+        <input className="search" type="search" value={search} onChange={(e) => setSearch(e.target.value)} />
       </form>
       <div style={{width : "40%",padding:"1rem 2rem"}}>
         {data ?
