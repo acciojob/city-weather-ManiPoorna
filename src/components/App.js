@@ -16,6 +16,7 @@ const App = () => {
         setError(err.response.data.message)
         setData("")
       })
+    setSearch("")
   }
   console.log(data)
   return (
