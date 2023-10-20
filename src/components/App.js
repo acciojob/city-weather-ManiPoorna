@@ -26,7 +26,7 @@ const App = () => {
       <div style={{width : "40%",padding:"1rem 2rem"}}>
         {data ?
           <div>
-            <h2>{data.name}</h2>
+            <h2 className="weather">{data.name}</h2>
             <p>{data?.weather && data?.weather[0].main}</p>
             {/* <p>$#{data?.weather && data?.weather[0].icon }</p> */}
           </div>
